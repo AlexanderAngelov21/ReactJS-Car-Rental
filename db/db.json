@@ -1,0 +1,934 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Aleksandar Angelov",
+      "email": "aleks@gmail.com",
+      "password": "pass123",
+      "phoneNumber": "+359123456789",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "fullName": "Test Testov",
+      "email": "test@gmail.com",
+      "password": "pass456",
+      "phoneNumber": "+359123456789"
+    },
+    {
+      "id": 56,
+      "fullName": "Test33",
+      "email": "test3@gmail.com",
+      "password": "pass123",
+      "phoneNumber": "+359123456700"
+    },
+    {
+      "fullName": "New",
+      "email": "new@gmail.com",
+      "password": "pass123",
+      "phoneNumber": "+359123456789",
+      "id": 57
+    },
+    {
+      "fullName": "Aleksandar Angelov",
+      "email": "aleks33@gmail.com",
+      "phoneNumber": "+3598700000",
+      "password": "1234",
+      "id": 58
+    },
+    {
+      "fullName": "Test1233",
+      "email": "test123@gmail.com",
+      "phoneNumber": "+359123456788",
+      "password": "123",
+      "id": 59
+    },
+    {
+      "fullName": "My New Profile",
+      "email": "profile@gmail.com",
+      "phoneNumber": "+35987000000",
+      "password": "1234",
+      "id": 61
+    },
+    {
+      "fullName": "Petar Ivanov",
+      "email": "pepsi@outlook.com",
+      "phoneNumber": "+359123456789",
+      "password": "pass15",
+      "id": 64
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "type": "SUV",
+      "brand": "Volkswagen",
+      "model": "Taos",
+      "constructionYear": 2022,
+      "numberOfSeats": 4,
+      "imageUrl": "https://media.ed.edmunds-media.com/volkswagen/taos/2022/oem/2022_volkswagen_taos_4dr-suv_se_fq_oem_1_815.jpg",
+      "pricePerDay": "80",
+      "count": "6",
+      "fuelType": "diesel"
+    },
+    {
+      "id": 2,
+      "type": "economy",
+      "brand": "Fiat",
+      "model": "Panda",
+      "constructionYear": 2009,
+      "numberOfSeats": 4,
+      "imageUrl": "https://th.bing.com/th/id/OIP.hESMsvkesbTuhUwR7gz9VwHaFj?pid=ImgDet&rs=1",
+      "pricePerDay": "35",
+      "count": 10,
+      "fuelType": "petrol"
+    },
+    {
+      "id": 3,
+      "type": "luxury",
+      "brand": "Mercedes",
+      "model": "Benz S class",
+      "constructionYear": 2022,
+      "numberOfSeats": 4,
+      "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2021/02/2021_Mercedes_S-Class_Gallery1.jpg",
+      "pricePerDay": 250,
+      "count": 0,
+      "fuelType": "petrol"
+    },
+    {
+      "id": 4,
+      "type": "cargo",
+      "brand": "Ford",
+      "model": "Transit Connect van",
+      "constructionYear": 2022,
+      "numberOfSeats": 8,
+      "imageUrl": "https://static.tcimg.net/vehicles/primary/16f7ea220740b3cc/2022-Ford-Transit_Connect_Van-silver-full_color-driver_side_front_quarter.png?h=360&w=720",
+      "pricePerDay": "45",
+      "count": 0,
+      "fuelType": "petrol"
+    },
+    {
+      "id": 5,
+      "type": "estate",
+      "brand": "Kia",
+      "model": "Ceed Sportswagon",
+      "constructionYear": 2022,
+      "numberOfSeats": 4,
+      "imageUrl": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/Explore_range/CeedSW_Range_512x288.png",
+      "pricePerDay": "85",
+      "count": 3,
+      "fuelType": "diesel"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris",
+      "type": "economy",
+      "fuelType": "petrol",
+      "numberOfSeats": "4",
+      "pricePerDay": "50",
+      "count": 4,
+      "imageUrl": "https://autosbangla.com/images/toyota/toyota-yaris-1-5l-img1.jpg",
+      "id": 7,
+      "constructionYear": "2021"
+    },
+    {
+      "brand": "Ferrari",
+      "model": "812",
+      "type": "luxury",
+      "fuelType": "petrol",
+      "numberOfSeats": "2",
+      "pricePerDay": "450",
+      "count": 7,
+      "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+      "id": 8,
+      "constructionYear": "2020"
+    },
+    {
+      "brand": "Skoda",
+      "model": "Octavia",
+      "type": "economy",
+      "fuelType": "diesel",
+      "numberOfSeats": "4",
+      "pricePerDay": "80",
+      "count": 0,
+      "imageUrl": "https://th.bing.com/th/id/OIP.9z_icAoQtYR5maC1lQ_tkgHaEh?pid=ImgDet&rs=1",
+      "id": 9,
+      "constructionYear": "2022"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corola",
+      "type": "economy",
+      "fuelType": "hybrid",
+      "numberOfSeats": "4",
+      "pricePerDay": "60",
+      "count": 3,
+      "imageUrl": "https://th.bing.com/th/id/R.76853122c0ce8cea2211d753f4dc20dd?rik=1xZBiYcrXVwchw&pid=ImgRaw&r=0",
+      "constructionYear": "2019",
+      "id": 10
+    }
+  ],
+  "rents": [
+    {
+      "startDate": "2022-06-30T21:00:00.000Z",
+      "endDate": "2022-07-01T21:00:00.000Z",
+      "car": {
+        "id": 3,
+        "type": "luxury",
+        "brand": "Mercedes",
+        "model": "Benz S class",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2021/02/2021_Mercedes_S-Class_Gallery1.jpg",
+        "pricePerDay": 250,
+        "count": 1
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks33@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 250,
+      "id": 1
+    },
+    {
+      "startDate": "2022-05-09T21:00:00.000Z",
+      "endDate": "2022-05-15T21:00:00.000Z",
+      "car": {
+        "id": 2,
+        "type": "economy",
+        "brand": "Fiat",
+        "model": "Panda",
+        "constructionYear": 2009,
+        "numberOfSeats": 4,
+        "imageUrl": "https://th.bing.com/th/id/OIP.hESMsvkesbTuhUwR7gz9VwHaFj?pid=ImgDet&rs=1",
+        "pricePerDay": 10,
+        "count": 7
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 55.8,
+      "id": 2
+    },
+    {
+      "startDate": "2022-05-08T21:00:00.000Z",
+      "endDate": "2022-05-10T21:00:00.000Z",
+      "car": {
+        "id": 1,
+        "type": "SUV",
+        "brand": "Volkswagen",
+        "model": "Taos",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://media.ed.edmunds-media.com/volkswagen/taos/2022/oem/2022_volkswagen_taos_4dr-suv_se_fq_oem_1_815.jpg",
+        "pricePerDay": 200,
+        "count": 3
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks33@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 400,
+      "id": 3
+    },
+    {
+      "startDate": "2022-05-11T21:00:00.000Z",
+      "endDate": "2022-05-15T21:00:00.000Z",
+      "car": {
+        "brand": "Skoda",
+        "model": "Octavia",
+        "type": "economy",
+        "fuelType": "diesel",
+        "numberOfSeats": "4",
+        "pricePerDay": "80",
+        "count": 1,
+        "imageUrl": "https://th.bing.com/th/id/OIP.9z_icAoQtYR5maC1lQ_tkgHaEh?pid=ImgDet&rs=1",
+        "id": 9,
+        "constructionYear": "2022"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks33@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 304,
+      "id": 4
+    },
+    {
+      "startDate": "2022-04-03T21:00:00.000Z",
+      "endDate": "2022-04-10T21:00:00.000Z",
+      "car": {
+        "id": 4,
+        "type": "cargo",
+        "brand": "Ford",
+        "model": "Transit Connect van",
+        "constructionYear": 2022,
+        "numberOfSeats": 8,
+        "imageUrl": "https://static.tcimg.net/vehicles/primary/16f7ea220740b3cc/2022-Ford-Transit_Connect_Van-silver-full_color-driver_side_front_quarter.png?h=360&w=720",
+        "pricePerDay": 150,
+        "count": 2
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 976.4999999999999,
+      "id": 5
+    },
+    {
+      "startDate": "2022-05-08T21:00:00.000Z",
+      "endDate": "2022-05-16T21:00:00.000Z",
+      "car": {
+        "brand": "Skoda",
+        "model": "Octavia",
+        "type": "economy",
+        "fuelType": "diesel",
+        "numberOfSeats": "4",
+        "pricePerDay": "80",
+        "count": 0,
+        "imageUrl": "https://th.bing.com/th/id/OIP.9z_icAoQtYR5maC1lQ_tkgHaEh?pid=ImgDet&rs=1",
+        "id": 9,
+        "constructionYear": "2022"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 544,
+      "id": 6
+    },
+    {
+      "startDate": "2022-05-02T21:00:00.000Z",
+      "endDate": "2022-05-03T21:00:00.000Z",
+      "car": {
+        "id": 4,
+        "type": "cargo",
+        "brand": "Ford",
+        "model": "Transit Connect van",
+        "constructionYear": 2022,
+        "numberOfSeats": 8,
+        "imageUrl": "https://static.tcimg.net/vehicles/primary/16f7ea220740b3cc/2022-Ford-Transit_Connect_Van-silver-full_color-driver_side_front_quarter.png?h=360&w=720",
+        "pricePerDay": 150,
+        "count": 1
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks33@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 127.5,
+      "id": 7
+    },
+    {
+      "startDate": "2022-06-07T21:00:00.000Z",
+      "endDate": "2022-06-14T21:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "4",
+        "pricePerDay": "150",
+        "count": 2,
+        "imageUrl": "https://img1.icarcdn.com/8280458/gallery_recon-car-carlist-ferrari-812-superfast-coupe-malaysia_000008280458_2ee98a38_c00a_4982_beb9_24f7575866a7.png.webp?smia=xTM",
+        "id": 8,
+        "constructionYear": "2019"
+      },
+      "customer": {
+        "fullName": "My New Profile",
+        "email": "profile@gmail.com",
+        "phoneNumber": "+35987000000",
+        "password": "1234",
+        "id": 61
+      },
+      "total": 976.4999999999999,
+      "id": 8
+    },
+    {
+      "startDate": "2022-10-03T21:00:00.000Z",
+      "endDate": "2022-10-05T21:00:00.000Z",
+      "car": {
+        "id": 1,
+        "type": "SUV",
+        "brand": "Volkswagen",
+        "model": "Taos",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://media.ed.edmunds-media.com/volkswagen/taos/2022/oem/2022_volkswagen_taos_4dr-suv_se_fq_oem_1_815.jpg",
+        "pricePerDay": 200,
+        "count": 2,
+        "fuelType": "diesel"
+      },
+      "customer": {
+        "fullName": "Petar Ivanov",
+        "email": "pepsi@outlook.com",
+        "phoneNumber": "+359123456789",
+        "password": "pass15",
+        "id": 64
+      },
+      "total": 400,
+      "id": 9
+    },
+    {
+      "startDate": "2022-11-21T22:00:00.000Z",
+      "endDate": "2022-11-28T22:00:00.000Z",
+      "car": {
+        "brand": "Toyota",
+        "model": "Yaris",
+        "type": "economy",
+        "fuelType": "petrol",
+        "numberOfSeats": "4",
+        "pricePerDay": "50",
+        "count": 5,
+        "imageUrl": "https://autosbangla.com/images/toyota/toyota-yaris-1-5l-img1.jpg",
+        "id": 7,
+        "constructionYear": "2021"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 325.5,
+      "id": 10
+    },
+    {
+      "startDate": "2022-11-23T22:00:00.000Z",
+      "endDate": "2022-11-24T22:00:00.000Z",
+      "car": {
+        "id": 2,
+        "type": "economy",
+        "brand": "Fiat",
+        "model": "Panda",
+        "constructionYear": 2009,
+        "numberOfSeats": 4,
+        "imageUrl": "https://th.bing.com/th/id/OIP.hESMsvkesbTuhUwR7gz9VwHaFj?pid=ImgDet&rs=1",
+        "pricePerDay": 10,
+        "count": 11,
+        "fuelType": "petrol"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 10,
+      "id": 11
+    },
+    {
+      "startDate": "2022-11-30T22:00:00.000Z",
+      "endDate": "2022-12-29T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 7,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 11745,
+      "id": 12
+    },
+    {
+      "startDate": "2022-12-31T22:00:00.000Z",
+      "endDate": "2023-01-30T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 6,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 12150,
+      "id": 13
+    },
+    {
+      "startDate": "2023-01-31T22:00:00.000Z",
+      "endDate": "2023-02-27T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 5,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 10935,
+      "id": 14
+    },
+    {
+      "startDate": "2022-11-10T22:00:00.000Z",
+      "endDate": "2022-11-14T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 8,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 1710,
+      "id": 15
+    },
+    {
+      "startDate": "2022-11-15T22:00:00.000Z",
+      "endDate": "2022-11-18T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 7,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 1350,
+      "id": 16
+    },
+    {
+      "startDate": "2022-11-25T22:00:00.000Z",
+      "endDate": "2022-11-27T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 6,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 900,
+      "id": 17
+    },
+    {
+      "startDate": "2022-11-28T22:00:00.000Z",
+      "endDate": "2022-12-01T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 5,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 1350,
+      "id": 18
+    },
+    {
+      "startDate": "2022-11-09T22:00:00.000Z",
+      "endDate": "2022-11-11T22:00:00.000Z",
+      "car": {
+        "id": 2,
+        "type": "economy",
+        "brand": "Fiat",
+        "model": "Panda",
+        "constructionYear": 2009,
+        "numberOfSeats": 4,
+        "imageUrl": "https://th.bing.com/th/id/OIP.hESMsvkesbTuhUwR7gz9VwHaFj?pid=ImgDet&rs=1",
+        "pricePerDay": 10,
+        "count": 10,
+        "fuelType": "petrol"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 20,
+      "id": 19
+    },
+    {
+      "startDate": "2022-11-12T22:00:00.000Z",
+      "endDate": "2022-11-14T22:00:00.000Z",
+      "car": {
+        "id": 1,
+        "type": "SUV",
+        "brand": "Volkswagen",
+        "model": "Taos",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://media.ed.edmunds-media.com/volkswagen/taos/2022/oem/2022_volkswagen_taos_4dr-suv_se_fq_oem_1_815.jpg",
+        "pricePerDay": 200,
+        "count": 1,
+        "fuelType": "diesel"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 400,
+      "id": 20
+    },
+    {
+      "startDate": "2022-11-14T22:00:00.000Z",
+      "endDate": "2022-11-18T22:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 4,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 1710,
+      "id": 21
+    },
+    {
+      "startDate": "2022-11-21T22:00:00.000Z",
+      "endDate": "2022-11-25T22:00:00.000Z",
+      "car": {
+        "brand": "Toyota",
+        "model": "Yaris",
+        "type": "economy",
+        "fuelType": "petrol",
+        "numberOfSeats": "4",
+        "pricePerDay": "50",
+        "count": 4,
+        "imageUrl": "https://autosbangla.com/images/toyota/toyota-yaris-1-5l-img1.jpg",
+        "id": 7,
+        "constructionYear": "2021"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 190,
+      "id": 22
+    },
+    {
+      "startDate": "2022-10-19T21:00:00.000Z",
+      "endDate": "2022-10-22T21:00:00.000Z",
+      "car": {
+        "id": 5,
+        "type": "estate",
+        "brand": "Kia",
+        "model": "Ceed Sportswagon",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/Explore_range/CeedSW_Range_512x288.png",
+        "pricePerDay": 100,
+        "count": 5,
+        "fuelType": "diesel"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 300,
+      "id": 23
+    },
+    {
+      "startDate": "2022-10-23T21:00:00.000Z",
+      "endDate": "2022-10-24T21:00:00.000Z",
+      "car": {
+        "id": 5,
+        "type": "estate",
+        "brand": "Kia",
+        "model": "Ceed Sportswagon",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/Explore_range/CeedSW_Range_512x288.png",
+        "pricePerDay": 100,
+        "count": 4,
+        "fuelType": "diesel"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 100,
+      "id": 24
+    },
+    {
+      "startDate": "2022-10-26T21:00:00.000Z",
+      "endDate": "2022-10-27T21:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 3,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 450,
+      "id": 25
+    },
+    {
+      "startDate": "2022-10-30T22:00:00.000Z",
+      "endDate": "2022-11-06T22:00:00.000Z",
+      "car": {
+        "brand": "Toyota",
+        "model": "Corola",
+        "type": "economy",
+        "fuelType": "hybrid",
+        "numberOfSeats": "4",
+        "pricePerDay": "60",
+        "count": 3,
+        "imageUrl": "https://th.bing.com/th/id/R.76853122c0ce8cea2211d753f4dc20dd?rik=1xZBiYcrXVwchw&pid=ImgRaw&r=0",
+        "constructionYear": "2019",
+        "id": 10
+      },
+      "customer": {
+        "id": 2,
+        "fullName": "Test Testov",
+        "email": "test@gmail.com",
+        "password": "pass456",
+        "phoneNumber": "+359123456789"
+      },
+      "total": 390.59999999999997,
+      "id": 26
+    },
+    {
+      "startDate": "2022-10-10T21:00:00.000Z",
+      "endDate": "2022-10-12T21:00:00.000Z",
+      "car": {
+        "brand": "Ferrari",
+        "model": "812",
+        "type": "luxury",
+        "fuelType": "petrol",
+        "numberOfSeats": "2",
+        "pricePerDay": "450",
+        "count": 7,
+        "imageUrl": "https://i.insider.com/58a5b94c01fe5823008b4e7a?width=700",
+        "id": 8,
+        "constructionYear": "2020"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 900,
+      "id": 27
+    },
+    {
+      "startDate": "2022-10-13T21:00:00.000Z",
+      "endDate": "2022-10-15T21:00:00.000Z",
+      "car": {
+        "id": 3,
+        "type": "luxury",
+        "brand": "Mercedes",
+        "model": "Benz S class",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2021/02/2021_Mercedes_S-Class_Gallery1.jpg",
+        "pricePerDay": 250,
+        "count": 0,
+        "fuelType": "petrol"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 500,
+      "id": 28
+    },
+    {
+      "startDate": "2022-10-18T21:00:00.000Z",
+      "endDate": "2022-10-20T21:00:00.000Z",
+      "car": {
+        "id": 4,
+        "type": "cargo",
+        "brand": "Ford",
+        "model": "Transit Connect van",
+        "constructionYear": 2022,
+        "numberOfSeats": 8,
+        "imageUrl": "https://static.tcimg.net/vehicles/primary/16f7ea220740b3cc/2022-Ford-Transit_Connect_Van-silver-full_color-driver_side_front_quarter.png?h=360&w=720",
+        "pricePerDay": "45",
+        "count": 0,
+        "fuelType": "petrol"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 90,
+      "id": 29
+    },
+    {
+      "startDate": "2022-10-25T21:00:00.000Z",
+      "endDate": "2022-10-28T21:00:00.000Z",
+      "car": {
+        "id": 5,
+        "type": "estate",
+        "brand": "Kia",
+        "model": "Ceed Sportswagon",
+        "constructionYear": 2022,
+        "numberOfSeats": 4,
+        "imageUrl": "https://www.kia.com/content/dam/kwcms/kme/uk/en/assets/static/nav22/Explore_range/CeedSW_Range_512x288.png",
+        "pricePerDay": "85",
+        "count": 3,
+        "fuelType": "diesel"
+      },
+      "customer": {
+        "id": 1,
+        "fullName": "Aleksandar Angelov",
+        "email": "aleks@gmail.com",
+        "password": "pass123",
+        "phoneNumber": "+359123456789",
+        "isAdmin": true
+      },
+      "total": 255,
+      "id": 30
+    }
+  ]
+}
